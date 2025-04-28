@@ -1,3 +1,4 @@
-# Write a Program to print "Hello World!" to the console
-print("Hello World!")
-
+x=10
+print(x)
+print(type(x))
+print(id(x))
