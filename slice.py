@@ -7,3 +7,6 @@ print(s[7:-10])
 print(s[7:-2])
 print(s[7:7])
 print(s[::-1][1:7][::-1][2:3])
+
+s1='pythonprogramming'
+print(s1[6:][::-1][:6])
