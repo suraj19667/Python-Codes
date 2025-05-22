@@ -84,64 +84,82 @@
 #===== Armstrong Number ========
 #Write a program to find total number of digits in given number
 
-# n=int(input("Enter a Number:"))
-# x=str(n)
-# print(len(x))
-# digit=0
-# while n>0:
-#     n=n/10
-#     digit=digit+1
-# print(f'total digit is{digit} in given number {n}')
-#write a program to find total sum of digits in given number
-# n=int(input("Enter a number:"))
-# sum=0
-# while n>0:
-#     last_digit=n%10
-#     sum=sum+last_digit
-#     n=n//10
-# print(f'total sum is :{sum}')
+n=int(input("Enter a Number:"))
+x=str(n)
+print(len(x))
+digit=0
+while n>0:
+    n=n/10
+    digit=digit+1
+print(f'total digit is{digit} in given number {n}')
+# write a program to find total sum of digits in given number
+n=int(input("Enter a number:"))
+sum=0
+while n>0:
+    last_digit=n%10
+    sum=sum+last_digit
+    n=n//10
+print(f'total sum is :{sum}')
 
 #Armstrong Number
-# n=int(input("Enter a number:"))
-# digit=1
-# sum=0
-# x=y=n
-# while n>0:
-#     digit=digit+1
-#     n=n//10
-# while n>0:
-#     last_digit=x%10
-#     sum=sum+last_digit**digit
-#     x=x//10
+n=int(input("Enter a number:"))
+digit=1
+sum=0
+x=y=n
+while n>0:
+    digit=digit+1
+    n=n//10
+while n>0:
+    last_digit=x%10
+    sum=sum+last_digit**digit
+    x=x//10
 
-#     if y==sum:
-#         print(f'given no {y} is armstorng')
-#     else:
-#         print(f'not a armstrong number')
+    if y==sum:
+        print(f'given no {y} is armstorng')
+    else:
+        print(f'not a armstrong number')
 
 
 #palindrom
 
-# n=input("enter any number:")
-# if n==n[::-1]:
-#     print(f'give value {n} is palindrom')
-# else:
-#     print(f'given value {n}is not palindrom')
+n=input("enter any number:")
+if n==n[::-1]:
+    print(f'give value {n} is palindrom')
+else:
+    print(f'given value {n}is not palindrom')
 
-# n=int(input("enter any thing"))
-# rev=0
-# while n>0:
-#     last_digit=n%10
-#     rev=rev*10+last_digit
-#     n=n//10
-# if n==rev:
-#     print(f'given number is{x} palindrom')
-# else:
-#     print(f'not palindrom{x}')
+n=int(input("enter any thing"))
+rev=0
+while n>0:
+    last_digit=n%10
+    rev=rev*10+last_digit
+    n=n//10
+if n==rev:
+    print(f'given number is{x} palindrom')
+else:
+    print(f'not palindrom{x}')
 
 
 #string reverse with convensional method
 
-s=str(input("Enter any String:"))
-rev=s[::-1]
-print(rev)
+s=input("Ente a string:")
+l=int(len(s)/2)
+i,j=0,-1
+palindrom=True
+i,j=0,-1
+
+while l>0:
+    if s[i]==s[j]:
+        pass
+    else:
+        palindrom=False
+        break
+    i=i+1
+    j=j-1
+    l=l-1
+if palindrom:
+    print(f'given string {s} is palindrom')
+else:
+    print("Not Palidrom!")
+
+
