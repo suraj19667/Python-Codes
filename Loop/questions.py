@@ -1,15 +1,15 @@
 #Question 2
 #swipe the number
-# l=[10,20,30,40,50]
-# l[0],l[-1]=l[-1],l[0]
-# print(l)
+l=[10,20,30,40,50]
+l[0],l[-1]=l[-1],l[0]
+print(l)
 
 #Question 3
-# t=(10,20,30,40,50)
-# l=list(t)
-# l[0],l[-1]=l[-1],l[0]
-# t=tuple(l)
-# print(tuple)
+t=(10,20,30,40,50)
+l=list(t)
+l[0],l[-1]=l[-1],l[0]
+t=tuple(l)
+print(tuple)
 
 #Question 4
 s='python'
