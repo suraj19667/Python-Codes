@@ -7,7 +7,7 @@ print(x)
 print(input(y))
 
 print(id(x))
-input("Enter your name= ")
+input("Enter your = ")
 
 x=10
 print(type(x))
