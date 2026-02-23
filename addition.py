@@ -7,3 +7,9 @@ x=9
 y=4
 subs=x-y
 print("The substraction is :",subs)
+
+
+c=9
+d=8
+sum=c+d
+print(" Sum is :",sum)
