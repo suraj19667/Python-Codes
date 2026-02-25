@@ -13,3 +13,10 @@ c=9
 d=8
 sum=c+d
 print(" Sum is :",sum)
+
+
+print(''' 
+1.hello
+2.hii
+
+''')
