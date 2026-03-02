@@ -23,4 +23,8 @@
 
 x=[3,4]
 y=x
-print(x is y)
+print(x is not y)
+
+a=[94,43,23,21]
+b=a
+print(a is b)
