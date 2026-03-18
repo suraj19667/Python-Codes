@@ -1,9 +1,12 @@
-x=90
-y=87
-sum=x+y
-print("The sum is:",sum)
+user_name='suraj'
+course='b.tech'
+specialization='CSE'
 
-a=80
-b=34
-sub=a-b
-print("Substraction is:",sub)
+print("The Informations is:",user_name,course,specialization)
+
+
+#additional program 
+x=int(input("Enter the number:"))
+y=int(input("Enter the second number: "))
+sum=x+y
+print("Sum is :",sum)
