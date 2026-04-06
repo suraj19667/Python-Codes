@@ -11,29 +11,31 @@ print(z)
 x=y=z=6+6j
 print(x,y,z)'''
 
-x=10.5+2j
-y=20.2+3j
-z1=x+y
-print(type(z1))
-z2=x-y
-print(type(z2))
-z3=x*y
-print(type(z3))
-z4=x/y
-print(type(z4))
+# x=10.5+2j
+# y=20.2+3j
+# z1=x+y
+# print(type(z1))
+# z2=x-y
+# print(type(z2))
+# z3=x*y
+# print(type(z3))
+# z4=x/y
+# print(type(z4))
 # z5=x//y
 # print(type(z5))
 # # z6=x%y
 # print(type(z6))
-z7=x**y
-print(type(z7))
+# z7=x**y
+# print(type(z7))
 
 
-a=10
-b=4
-c=7
+# a=10
+# b=4
+# c=7
 
 
-a+=b
-c+=x
-print(c)
+#print the sum of the number
+first_no=int(input("Enter the first number:"))
+second_no=int(input("Enter the second number:"))
+sum=first_no+second_no
+print("The sum is:",sum)
