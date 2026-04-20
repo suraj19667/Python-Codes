@@ -29,9 +29,9 @@ print(x,y,z)'''
 # print(type(z7))
 
 
-# a=10
-# b=4
-# c=7
+a=10
+b=4
+c=7
 
 
 #print the sum of the number
