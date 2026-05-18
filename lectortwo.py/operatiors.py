@@ -17,11 +17,11 @@
 # multi=c*d
 # print("Multiplication is:",multi)
 
-# #Division
-# e=int(input("Enter the first number:"))
-# f=int(input("Enter the second number:"))
-# div=e/f
-# print("Division is:",div)
+#Division
+e=int(input("Enter the first number:"))
+f=int(input("Enter the second number:"))
+div=e/f
+print("Division is:",div)
 
 
 x=8
