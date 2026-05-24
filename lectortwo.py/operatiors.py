@@ -1,21 +1,21 @@
-# #Additional Operator
-# x=int(input("Enter the first number:"))
-# y=int(input("Enter the second number:"))
-# sum=x+y
-# print("The Total Sum is:",sum)
+#Additional Operator
+x=int(input("Enter the first number:"))
+y=int(input("Enter the second number:"))
+sum=x+y
+print("The Total Sum is:",sum)
 
-# #Substraction
-# a=int(input("Enter the First Number:"))
-# b=int(input("Enter the Second Number:"))
-# sub=a-b
-# print("The Substraction is:",sub)
+#Substraction
+a=int(input("Enter the First Number:"))
+b=int(input("Enter the Second Number:"))
+sub=a-b
+print("The Substraction is:",sub)
 
-# #Multiplication
+#Multiplication
 
-# c=int(input("Enter the first number:"))
-# d=int(input("Enter the second number:"))
-# multi=c*d
-# print("Multiplication is:",multi)
+c=int(input("Enter the first number:"))
+d=int(input("Enter the second number:"))
+multi=c*d
+print("Multiplication is:",multi)
 
 #Division
 e=int(input("Enter the first number:"))
