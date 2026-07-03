@@ -5,18 +5,20 @@
 #     l1.append(i**2)
 # print(l1)
 
-user input (a,b,c,d,e)=>(e,f,g,h,i)
+x = 'a'
 
-x='a'
 print(ord('a'))
-print(ord('a')+4)
+print(ord('a') + 4)
 
-print(chr(ord('a')+4))
+print(chr(ord('a') + 4))
 
-s=input("enter string:")
-s1=()
+s = input("Enter a string: ")
+s1 = ""
+
 for i in s:
-    print(chr(ord(i)+4))
+    s1 = s1 + chr(ord(i) + 4)
+
+print("Output:", s1)
 
 
 # s='abcde'
