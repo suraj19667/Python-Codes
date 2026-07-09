@@ -21,12 +21,12 @@ for i in s:
 print("Output:", s1)
 
 
-# s='abcde'
-# s1=''
-# for i in s:
-#     chr(ord(i)+4)
-#     s1=''.join((s1,chr(ord(i)+4)))
-# print(s1)
+s='abcde'
+s1=''
+for i in s:
+    chr(ord(i)+4)
+    s1=''.join((s1,chr(ord(i)+4)))
+print(s1)
 
 # s='abcde'
 # s1=''
