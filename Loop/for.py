@@ -9,4 +9,4 @@ print(naam, age, height)
 
 
 name=input("Ente the name:")
-print("Hello, ", name)
+print("Hello  ", name)
