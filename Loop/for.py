@@ -9,4 +9,8 @@ print(naam, age, height)
 
 
 name=input("Ente the name:")
+age=input("Enter the age : ")
+dateofBirth=input("Enter the date of birth:")
 print("Hello  ", name)
+print("Age is : " , age )
+print("Date of Birth: ", dateofBirth)
