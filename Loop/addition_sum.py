@@ -10,3 +10,8 @@ x=int(input("Enter the number:"))
 y=int(input("Enter the second number: "))
 sum=x+y
 print("Sum is :",sum)
+#substraction 
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number:"))
+sub=a-b
+print("The substraction:",sub)
