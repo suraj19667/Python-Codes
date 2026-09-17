@@ -13,5 +13,5 @@ print("Sum is :",sum)
 #substraction 
 a=int(input("Enter the first number: "))
 b=int(input("Enter the second number:"))
-sub=a-b
+sub=a-bz
 print("The substraction:",sub)
